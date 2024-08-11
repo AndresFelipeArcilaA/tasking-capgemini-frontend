@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.p-card .p-card-content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.car-pending .p-card .p-card-body{
+    border: solid rgb(240, 208, 3); 
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+.car-completed .p-card .p-card-body{
+    border: solid rgb(56, 148, 2); 
+    padding: 5px; 
+    border-radius: 5px;
+}
